@@ -1,0 +1,49 @@
+object frmOrganization: TfrmOrganization
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'FStat'
+  ClientHeight = 408
+  ClientWidth = 667
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlTop: TPanel
+    Left = 0
+    Top = 0
+    Width = 667
+    Height = 41
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = 240
+    ExplicitTop = 96
+    ExplicitWidth = 185
+  end
+  object pnlBottom: TPanel
+    Left = 0
+    Top = 367
+    Width = 667
+    Height = 41
+    Align = alBottom
+    TabOrder = 1
+    ExplicitLeft = 280
+    ExplicitTop = 192
+    ExplicitWidth = 185
+  end
+  object tvOrganization: TTreeView
+    Left = 0
+    Top = 41
+    Width = 185
+    Height = 326
+    Align = alLeft
+    Indent = 19
+    TabOrder = 2
+  end
+end
